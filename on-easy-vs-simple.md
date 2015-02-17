@@ -128,11 +128,12 @@ Here are some of the problems with the artifacts produced by nested CSS:
     the CSS well-factored, you may discover that your 'structure' CSS is
     separate from the 'skin' CSS. Or at the very least, that you might be able
     to separate them. Dedication to keeping complexity low will pay off when
-    you're eventually asked to give the components a new look and feel.
+    you're (sooner or later) asked to give your large app a new look and feel.
 
-    In theory, many of the structural patterns that your present-and-future
-    app depend on will have already been discovered and you will have written
-    CSS for them.
+    In this scenario, many of the _structural_ patterns that your app depends 
+    on will have already been discovered and you will have written CSS for them.
+    You're then free to focus on the look and feel instead of re-codifying the
+    layout principles that your designers have bound the application to.
 
 Nicole Sullivan ([@stubbornella](https://twitter.com/stubbornella)) said
 "Never go more than three levels deep!" in reference to selector-nesting at
@@ -143,7 +144,7 @@ Harry ([@csswizardry](https://twitter.com/csswizardry/)) think it's best to not 
 
 Nicolas ([@necolas](https://twitter.com/necolas)) has been telling us for a few years that we need better structure.
 
-Adam Morse ([@mrmrs](https://twitter.com/mrmrs)) has similarly been teaching us
+Adam Morse ([@mrmrs_](https://twitter.com/mrmrs_)) has similarly been teaching us
 that simpler is better.
 
 Soon or later that app is going to get big, and some time after that, it will
