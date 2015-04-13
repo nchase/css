@@ -146,8 +146,75 @@ Hypothesis: We can have more-composable, faster (performance) and faster (time-t
 * "add things, don't take them away" directive fights with nesting.
 
 
+
+Reflection
+==========
+
+Here are the questions I ask after I write CSS:
+
+* Did I match the design?
+* Did I repeat code?
+  * If there is repeated 'positional' code, can I extract that out into a 'class'
+    and immediately start using that class safely?
+* Did I target the elements I'm interested in appropriately?
+  i.e. not too specific, not too broad, not tied
+  to a tagName unless there's a good reason to do so
+
+
+What are some good reasons to not style directly to tagName?
+============================================================
+* Not tied directly to that tagName. If you need to change the tagName
+  you're targeting somewhere down the line, then you have additional code that you must change.
+
+
+What are some good reasons to style directly to tagNames?
+=========================================================
+* 
+
+
+What are some less-than-good reasons to style directly to tagNames?
+===================================================================
+* *"Our HTML must be be semantic, so our CSS
+   must be simple and target tagnames when convenient."*
+  The advantages here are unclear on a few levels:
+    1. Semantic HTML is largely irrelevant in web applications.
+       Search Engines do not index the 'chrome' (in this case, the 'chrome' is the HTML that our web app servers send the users who are interacting with our software) of a web application. Sometimes it's nice when the HTML is semantic, but it's hardly necessary and should be abandoned when it introduces its own constraints and issues with your application. Note that this ABSOLUTELY does not apply to "external" sites e.g. the site describing the product to users who find it on google or get a link to our homepage.
+    2. The CSS that we write has nothing to do with HTML-style semantics.
+    the semantic that we're trying to satisfy and close in on here is
+    "can developers who are trying to understand meaning and relationships
+    between things in this CSS codebase understand what's going on here
+    quickly enough to make changes."
+
+
 Code Review
 ===========
 
+Here is what I look for when reviewing CSS:
 
-stuff to look for in code review: magic numbers, stuff that doesn't look right in your dom inspector. that can be a sign of something that might be built to fail. you can't do great code review without looking at the comp and and loading the branch and opening your inspector.
+1. "Magic" Numbers
+2. Difference-To-Comp
+3. Scalability (e.g. "would this UI element still behave/look
+   near-or-identical to our intent if e.g. the width of the containing element changed?
+4. Repeated CSS
+5. Important (not `!important` properties declared in a way that the reader could miss)
+6. Repeated variables
+7. Unnecessary specificity and mis-qualification
+
+
+When I review CSS I check out the branch and play with the element in the DOM inspector.
+
+You cannot do OK review of CSS just by reading the code.
+You cannot do good review of CSS without:
+  1. Looking at the comp
+  2. Checking out the branch and running the code in a browser or two.
+
+
+On 'Positionality' of Properties and Extracting/Refactoring
+===========================================================
+
+Basically, don't try to extract non-positional properties to limited-responsibility utility classes unless they're deeply important to your app. In other words, a single class for `font-weight: bold;` is probably not worth it.
+
+More broadly, on the 'positionality' side: you should aim for particular sets of property _incantations_j
+that predictably do certain positional things.
+
+One such incantation that people learn early-on is `margin: 0 auto` - "center my element horizontally."
