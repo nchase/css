@@ -34,7 +34,7 @@ Writing Enduring CSS
     * something that doesn't exist, but might exist
 
 ## Breaking The Naming Convention
-j
+
 Hypothesis: We can have more-composable, faster (performance) and faster (time-to-develop) components by breaking away from our current naming convention.
 
 * `.component-name` - this is our current practice. it only allows for one dimension of identification.
