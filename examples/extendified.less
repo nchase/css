@@ -1,0 +1,17 @@
+@import "nested";
+
+
+.newStartSelector:extend(.component-name .fantod all) {
+  // imagine a scenario where you had some really nasty LESS/CSS...
+  // and you needed to make something new based off of it
+  // and you just didn't want to be working in that same file
+  // (the file has probably become something like a swamp.)
+  //
+  // we can use extends to pick up where we left off,
+  // with that same context, so we can effectively
+  // "hide baggage". (ugh)
+
+
+  display: inline-block;
+  text-align: center;
+}

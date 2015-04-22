@@ -1,0 +1,37 @@
+.component-name {
+  .inner-component {
+    .inner-inner-component {
+      display: block;
+      font-weight: bold;
+    }
+  }
+
+  .another-inner-component,
+  .a-third-inner-component {
+    p {
+      a {
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .fantod {
+    position: relative;
+    top: 50px;
+    right: 50px;
+    left: -50px;
+    font-weight: 100;
+    text-decoration: underline;
+    box-shadow: 1px 2px 5px #ddd;
+
+    strong,
+    bold {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  }
+}
