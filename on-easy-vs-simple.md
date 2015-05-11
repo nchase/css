@@ -108,13 +108,15 @@ Here are some of the problems with the artifacts produced by nested CSS:
     significantly more complexity in CSS selectors. Here's an example of a
     generated selector I found:
 
-    ![before de-complection](http://cloud.ahfr.org/263fe0/3f3f576fa927f2933742.png)
+    ![before de-complection](http://cloud.ahfr.org/f2a057/7e24f1c0347ccf17d080.png)
 
     The ruleset above is very complex considering it could be targeted by a
     single className. This reduces size and complexity and reduces the amount
     of work the browser needs to do to render the page:
 
-    ![after de-complection](http://cloud.ahfr.org/1ccc71/12d7893f3c2430893dae.png)
+    ![after de-complection](http://cloud.ahfr.org/baea8d/964efc399789969ea6c4.png)
+
+    I hope it's obvious that the second image is a huge improvement: the surface area of the "selector" (which in the first case, is actually many, many selectors) is reduced and the code is smaller and faster. Keep the browser's CSS evaluation speed mentioned above in mind here too.
 
   * **Refactoring Difficulty:** When CSS rulesets are smaller and better-factored,
     it's suddenly possible to discover and pluck out new abstractions, usually
