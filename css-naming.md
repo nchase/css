@@ -55,8 +55,8 @@ Hypothesis: We can have more-composable, faster (performance) and faster (time-t
       }
     ```
 * `.componentName` - this in-and-of-itself is not better.
-  * `.componentName-descendantName` - we have liberated the hyphen. It can now work for us to provide an additional dimension (or dimensions) of meaning.
-    * spec gives us a-z, hyphen, underscore. it also gives lots of other characters, but they require escaping, so we should never use them.
+  * `.componentName-descendantName` - we have liberated the hyphen. It can now work for us to provide an additional dimension (or more) of meaning.
+    * spec gives us a-z, hyphen, underscore. it also gives lots of other characters, but these extra characters require escaping, so we should never use them.
     * `.componentName-descendantName--modifierName`
 
       ```css
