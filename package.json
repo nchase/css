@@ -4,6 +4,10 @@
   "description": "Adventures in writing CSS",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^5.0.0",
+    "catw": "^1.0.0",
+    "concurrently": "0.0.5",
+    "express": "^4.12.4",
     "less": "^2.5.0"
   },
   "devDependencies": {},
