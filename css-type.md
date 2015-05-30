@@ -12,3 +12,7 @@ Here's how to make it work:
     e.g. if parent has `font-size: 36px; line-height: 1.6em` and it has a child with `font-size: 14px`,
     the child gets a computed `line-height: 57.6px` which is probably much larger than anyone intended.
     If you use unit-less `line-height` the child element gets the more appropriate computed `line-height: 22.4px`.
+
+
+On Vertical Rhythm: and single-directional margins: desired bottom margin = is 'line-height + em-margin' e.g. (16*1.5) + (16*1), (20*1.5) + (20*0.5)
+
