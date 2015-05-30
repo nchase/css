@@ -1,5 +1,4 @@
-On 'Positionality' of Properties and Extracting/Refactoring
-===========================================================
+# On 'Positionality' of Properties and Extracting Code
 
 'Positionality' is a made-up word that I use to differentiate CSS properties that change where a thing appears on a page from CSS properties that change some other aspect of the thing (e.g. color, size, shadowing, text).
 
@@ -13,3 +12,8 @@ If there's some existing incantation that surprisingly does a new thing, it is p
 [Typography](type.md) can also benefit from this kind of extraction, but for Type instead of Position.
 
 In both cases, it's important to try to nail the granularity of the incantation. In other words, a single class for `font-weight: bold;` may not worth it some apps, but you might want to extract a larger Typographic incantation that includes `font-weight: bold;` that makes it easier to nail the app-or-region's typography.
+
+
+---
+
+Also see: ["Refactoring CSS"](css-refactoring.md)
