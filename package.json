@@ -17,6 +17,7 @@
     "example": "examples"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"no tests [yet]\""
   },
   "repository": {
