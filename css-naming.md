@@ -181,5 +181,6 @@ compiles to:
        > "The network of meaning and relationships between things that allows us to make changes
        >  quickly and effectively without much fear or guessing with as much flexibility as necessary."
 
+---
 
 Also see: ["CSS Componentry"](css-componentry.md)

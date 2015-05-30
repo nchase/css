@@ -23,5 +23,6 @@ building block in a user interface.
 
 Our smallest components are built up out of HTML element-primitives.
 
+---
 
 Also see: ["CSS Naming"](css-naming.md)
