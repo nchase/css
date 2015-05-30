@@ -107,8 +107,6 @@ Hypothesis: We can have more-composable, faster (performance) and faster (time-t
         }
       ```
 
-* responsive: we should be adding things, not taking them away
-* "add things, don't take them away" directive fights with nesting.
 
 ## What are some good reasons to not style directly to tagName?
 * *Not tied directly to that tagName.* If you need to change the tagName
