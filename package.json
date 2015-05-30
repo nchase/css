@@ -8,7 +8,9 @@
     "catw": "^1.0.0",
     "concurrently": "0.0.5",
     "express": "^4.12.4",
-    "less": "^2.5.0"
+    "less": "^2.5.0",
+    "marked": "^0.3.0",
+    "node-sass": "^2.0.0"
   },
   "devDependencies": {},
   "directories": {
