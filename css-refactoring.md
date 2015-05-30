@@ -20,4 +20,4 @@ Extract patterns repeated across many UI elements to components.
 * e.g. if there's overlap in what the code does, but no unifying concept that makes sense as an abstraction, it _might_ be too early to refactor.
 
 
-Also see: ["CSS Positionality and Extracting Code"](css-positionality.md)
+Also see: ["CSS Positionality and Extracting Code"](css-positionality.md), ["CSS Componentry"](css-componentry)

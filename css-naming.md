@@ -180,3 +180,6 @@ compiles to:
     3. The the semantic that we're trying to satisfy and close in on here is
        > "The network of meaning and relationships between things that allows us to make changes
        >  quickly and effectively without much fear or guessing with as much flexibility as necessary."
+
+
+Also see: ["CSS Componentry"](css-componentry.md)

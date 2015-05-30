@@ -16,4 +16,4 @@ In both cases, it's important to try to nail the granularity of the incantation.
 
 ---
 
-Also see: ["Refactoring CSS"](css-refactoring.md)
+Also see: ["Refactoring CSS"](css-refactoring.md), ["CSS Componentry"](css-componentry)
