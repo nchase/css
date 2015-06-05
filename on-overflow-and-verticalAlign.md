@@ -25,7 +25,7 @@ Either way you're rare and special. Please share your knowledge as widely and br
 How can anyone in the world could possibly intuit this behavior? I think I can reason through it now that I know the rule, but can anyone know this without reading the spec?
 
 It's worth noting _just_ how widespread this issue is. A few days ago I found an example of it in the wild on Instapaper's website. Note the mis-aligned `<code>` elements:
-![image of totally-busted `<code>` styles in Instapaper](http://cloud.ahfr.org/8c2bc8/e002dc2174cef5a8a827.png)
+![image of totally-busted `<code>` styles in Instapaper](http://cloud.ahfr.org/ab5ce5/07d7a9d9f434e27d191d.png)
 
 As of posting this, the issue has not been fixed. It can easily be fixed if they set `vertical-align: middle`.
 Most people will decide to set `margin-top`, or `top` to some arbitrary value. We can do better.
