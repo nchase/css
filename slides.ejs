@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>-</title>
+    <link rel="stylesheet" href="/slides.css">
+    <% if (printable) { %>
+      <link rel="stylesheet" href="/node_modules/reveal.js/css/print/pdf.css">
+    <% } %>
+    <script src="/node_modules/reveal.js/lib/js/head.min.js"></script>
+    <script src="/node_modules/reveal.js/js/reveal.js"></script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-markdown="<%= content %>"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+          data-separator-notes="^Note:"
+        >
+        </section>
+      </div>
+    </div>
+    <script>
+      Reveal.initialize(<%- options %>);
+    </script>
+  </body>
+</html>
+

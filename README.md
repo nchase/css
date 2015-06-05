@@ -19,3 +19,11 @@ Writing Enduring CSS
 8.  [Components](css-componentry.md)
 9.  [Responsive](css-responsive.md)
 10. [Processing](css-processing.md)
+
+
+# Slide Decks
+
+1. [Building Better UIs](slides-better-uis.md)
+
+
+With server running, slide decks can be presented via `/slides/:path.md`.
