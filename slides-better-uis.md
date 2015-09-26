@@ -67,15 +67,6 @@
 
 
 
-## We have inconsistent UI quality.
-
-
-## In some places, even in our newer products, the UI isn't as good as it ought to be.
-
-
-## UI work on the web is not inherently 'sexy'
-
-
 ## UI work on the web is incredibly important
 
 * Our customers do not relish our architecture or any of the _constructs_
