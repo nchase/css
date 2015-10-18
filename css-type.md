@@ -14,3 +14,6 @@ Here's how to make it work:
     e.g. if parent has `font-size: 36px; line-height: 1.6em` and it has a child with `font-size: 14px`,
     the child gets a computed `line-height: 57.6px` which is probably much larger than anyone intended.
     If you use unit-less `line-height` the child element gets the more appropriate computed `line-height: 22.4px`.
+* Avoid abusing `line-height` for vertical centering.
+  `line-height` for vertical centering is only robust
+  when there's a single line of text.
