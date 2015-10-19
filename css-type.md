@@ -17,3 +17,17 @@ Here's how to make it work:
 * Avoid abusing `line-height` for vertical centering.
   `line-height` for vertical centering is only robust
   when there's a single line of text.
+
+
+---
+
+## Type Quirks
+
+* Setting `font-family: monospace` makes the element's `font-size` reduce to `13px`
+  and you can't fix it.  This has been documented for years now,
+  most prominently by Standards afficionado Eric Meyer
+  [[1]](http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/),
+  [[2]](http://code.stephenmorley.org/html-and-css/fixing-browsers-broken-monospace-font-handling/)
+  but the behavior has remained consistent.
+
+  If you have a sense-of or reference-to _why_ this has never changed, send me a message?
