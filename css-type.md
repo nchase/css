@@ -48,8 +48,9 @@ Here's how to make it work:
 * Setting `font-family: monospace` makes the element's `font-size` reduce to `13px`
   and you can't fix it.  This has been documented for years now,
   most prominently by Standards afficionado Eric Meyer
-  [[1]](http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/),
-  [[2]](http://code.stephenmorley.org/html-and-css/fixing-browsers-broken-monospace-font-handling/)
-  but the behavior has remained consistent.
+  [[1]](http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/)
+  but also by others
+  [[2]](http://code.stephenmorley.org/html-and-css/fixing-browsers-broken-monospace-font-handling/).
+  The quirk has remained consistent.
 
   If you have a sense-of or reference-to _why_ this has never changed, send me a message?
