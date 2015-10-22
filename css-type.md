@@ -27,7 +27,8 @@ Here's how to make it work:
 
 * When building vertical rhythm into a context, limit bi-directional margin declarations.
 
-  You don't want them. You want to extinguish them. You want to express vertical rhythm in one direction.
+  You don't want anything bi-directional. You want to extinguish bi-directionality.
+  You really and truly want to express the Type's vertical rhythm in one direction.
 
 * Avoid specifying units for `line-height`, especially the `em` unit, unless there's a really good reason for it.
 
