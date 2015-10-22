@@ -19,7 +19,7 @@ Here's how to make it work:
 
 ## Vertical Rhythm and `line-height`
 
-* Trust your designers. Your designers will have thought about the vertical rhythm of the type for that context.
+* Trust your designers. Your designers will have thought about the vertical rhythm for the Type for that context.
 
   Often times, vertical rhythm is meant to be the same throughout an entire page,
   but if your app has any notion of pluggable user-facing widgets or a notion of a 'frame',
