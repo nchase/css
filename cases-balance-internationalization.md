@@ -8,8 +8,10 @@ improvements for this UI.
 ## 1. The Boxes. Look At The Boxes.
 
 Whenever you're looking to improve some CSS, start by drawing the boxes to the
-screen.  What you want to see is balance and box paints that represent the
-elements as the user would see them on the screen.
+screen. Also look to your elements's padding - anything that takes up space or
+affects document _flow_ as defined in CSS 2.1.[^1]  What you want to see is
+balance and box paints that represent the elements as the user would see them
+on the screen.
 
 What you don't want to see is 'deflated' elements or otherwise off-balance
 elements that do not reflect what the user sees. This usually points to problems
@@ -25,8 +27,13 @@ The following step set focuses on **balance**.
 
 ## 2. What Did We Solve?
 
-This was a simple change. The effects of the final state above are invisible to users.
-Here are a couple of concrete problems we solved:
+This was a simple change (end result: equal `padding` on both sides of the
+navigation items, not just one) The effects of the final state above are
+invisible to users. The problems we solved, however invisible they may seem,
+are sharp pains if they ever manifest.
+
+Here are a couple of the problems we solved:
+
 1. We won't have to go back and re-write this code for long-text scenarios
    (think toward internationalization/translation, textchange requests,
    new menu items)
@@ -62,3 +69,6 @@ Remaining questions about this sidebar component:
     border-radius: 5px;
   }
 </style>
+
+
+[^1]: [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 9.4, _Normal Flow in the Visual Formatting Model_](http://www.w3.org/TR/CSS21/visuren.html#normal-flow)
