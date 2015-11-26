@@ -21,6 +21,11 @@ Writing Enduring CSS
 10. [Processing](css-processing.md)
 
 
+Case Studies
+============
+
+1. [Inheritance, Balance and More [work in progress]](cases-balance-internationalization.md)
+
 # Slide Decks
 
 1. [Building Better UIs](slides-better-uis.md)

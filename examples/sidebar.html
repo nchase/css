@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="sidebar-base.css" />
+  <title>
+    Sidebar Example: Lots of CSS Improvement Opportunities
+  </title>
+</head>
+
+<body>
+  <input
+    id="stateSlider" type="range"
+    step="1" min="-1" max="4" value="-1"
+  />
+  <div>
+    <section class="brand-bar" id="sidebar-container">
+      <div class="slide-right" id="brandbar">
+        <div class="menu-items">
+          <div class="menu-item add-content active has-children">
+            <div class="menu-item-title">
+              <span>add content</span>
+              <span class="menu-item-toggle"></span>
+            </div>
+
+
+            <div class="section-items section-items-add-content">
+              <div class="section-item">
+                <div class="text">
+                  Header
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Image &amp; Text
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Services &amp; Menus
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Contact
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Online Store
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Footers
+                </div>
+              </div>
+
+
+              <div class="indicator"></div>
+            </div>
+          </div>
+
+
+          <div class="menu-item edit-styling has-children">
+            <div class="menu-item-title">
+              <span>edit style</span>
+              <span class="menu-item-toggle"></span>
+            </div>
+
+
+            <div class="section-items section-items-edit-styling">
+              <div class="section-item">
+                <div class="text">
+                  Color Sets
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Font Pairings
+                </div>
+              </div>
+
+
+              <div class="section-item">
+                <div class="text">
+                  Button Style
+                </div>
+              </div>
+
+
+              <div class="indicator"  style="top:0px;left:-4px;"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="button-items">
+          <button class="publishButton btn btn--block btn--lg btn--success" type="button">
+            publish
+          </button>
+          <button class="previewButton btn btn--block btn--lg btn--primary" type="button">
+            preview
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="stateManager.js"></script>
+</body>
+</html>

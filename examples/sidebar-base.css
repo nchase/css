@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+  transition: all 400ms;
+}
+
+body {
+  margin: 2px;
+}
+
+input[type="range"] {
+  width: 90%;
+}
