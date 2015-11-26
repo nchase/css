@@ -32,3 +32,7 @@ Case Studies
 
 
 With server running, slide decks can be presented via `/slides/:path.md`.
+
+---
+
+[github.com/nchase](https://github.com/nchase)
