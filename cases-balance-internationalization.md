@@ -62,10 +62,10 @@ Remaining questions about this sidebar component:
 
 <style>
   iframe {
+    margin: 1em;
     height: 480px;
     border: none;
     background-color: #eaeaea;
-    padding: 1em;
     border-radius: 5px;
   }
 </style>

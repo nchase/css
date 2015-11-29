@@ -6,8 +6,10 @@
 
 body {
   margin: 2px;
+  padding: 1em;
 }
 
 input[type="range"] {
+  margin-bottom: 1em;
   width: 90%;
 }
