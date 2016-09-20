@@ -19,3 +19,5 @@ The "collapsing margins" behavior is in the spec. It even has its own section. [
 Here's a codepen with two simple blocks with `1em` vertical margin: http://codepen.io/nchase/pen/dPdepa.
 
 If you add `display: inline-block` to the ruleset, you'll see that the margins will cease to collapse.
+
+Similarly, if you're able to add vertical `padding` to an element against the affected margin, you will also see the margin cease to collapse.
