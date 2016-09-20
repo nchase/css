@@ -5,7 +5,7 @@ but used `padding` because you couldn't get two margins to "butt-up" against eac
 
 ***
 
-The "collapsing margins" behavior is in the spec. It even has its own section. CSS 2.1 Section 8.3.1, "Collapsing Margins":
+The "collapsing margins" behavior is in the spec. It even has its own section. [CSS 2.1 Section 8.3.1](https://www.w3.org/TR/CSS2/box.html#collapsing-margins), "Collapsing Margins":
 
 > In CSS, the adjoining margins of two or more boxes (which might or might not be siblings)
 > can combine to form a single margin. Margins that combine this way are said to collapse, 
